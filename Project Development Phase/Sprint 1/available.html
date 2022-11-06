@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Available</title>
+	<style>
+	body{
+    background-image:url('img4.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;  
+    }
+    input[type=text] {
+	    width: 50%;
+	    box-sizing: border-box;
+	    border: none;
+	    border-bottom: 1px solid #ccc;
+	    font-size: 16px;
+	    background-color: none;
+	    background-position: 10px 10px; 
+	    background-repeat: no-repeat;
+	    padding: 12px 20px 12px 40px;
+	    outline: none;
+     }
+	.btn{
+			background-color: yellow;
+			color:black;
+			padding:15px 25px;
+			border-radius:50px;
+			text-decoration: none;
+		}
+    .btn:hover{
+			background-color: #223094;
+		}
+</style>
+</head>
+<body>
+
+<center><h1>Check Availability</h1></center>
+	<h1>Blood Group</h1>
+	<input type="text" list="bloodgroup" name="blood_group" placeholder="----Select----" required  autocomplete="off">
+	<datalist id="bloodgroup">
+		<option value="A+"></option>
+		<option value="A-"></option>
+		<option value="B+"></option>
+		<option value="B-"></option>
+		<option value="O+"></option>
+		<option value="O-"></option>
+		<option value="AB+"></option>
+		<option value="AB-"></option>
+	</datalist>	
+	&nbsp;&nbsp;&nbsp;
+    <button class="btn"><b>Search</b></button>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+	<br><br>
+    <a class="btn" href = "found.html"><b>Available</b></a>
+    &nbsp;&nbsp;&nbsp;
+    <a class="btn" href = "not found.html"><b>Not Available</b></a>
+     &nbsp;&nbsp;&nbsp;
+    <a class="btn" href = "login.html"><b>Back</b></a>
+  
+  
+</body>
+</html>		
+									
