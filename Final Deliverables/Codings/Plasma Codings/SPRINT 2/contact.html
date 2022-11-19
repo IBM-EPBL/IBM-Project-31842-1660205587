@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>About</title>
+	<style>
+		.btn{
+			background-color: yellow;
+			color:black;
+			padding:15px 25px;
+			border-radius:50px;
+			border-color: black;
+			border-size:3px;
+			text-decoration: none;
+		}
+        .btn:hover{
+			background-color: #223094;
+		}
+		.input{
+		  width: 200px;
+		  height: 30px;
+		  box-sizing: border-box;
+		}
+		.msg{
+		  width: 300px;
+		  height: 70px;
+		  box-sizing: border-box;
+		}
+		body{
+		    background-image:url('contactimage.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;  
+		}
+
+	</style>
+	<script>
+		function myFunction() {
+		  var txt;
+		  if (confirm("Thank you for contacting us !!")) {
+		    txt = "You pressed OK!";
+		  } else {
+		    txt = "You pressed Cancel!";
+		  }
+		  doc
+		ument.getElementById("demo").innerHTML = txt;
+		}
+</script>
+</head>
+<body>
+	<center><h1>Contact Us</h1></center>
+	<br><br>
+
+  <center><div class="tab"><b>Name</b>
+    <p><input class="input" placeholder="Name..." oninput="this.className = ''" name="fname"></p>
+    <br><b>Email Id</b>
+    <p><input class="input" placeholder="Email Id..." oninput="this.className = ''" name="lname"></p>
+    <br><b>Message</b>
+    <p><input class="msg" placeholder="Message..."></p>
+  </div>
+  <br>
+  <center><button onclick="myFunction()" class="btn" type="submit"><b>Submit</b></button> 
+  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="btn" href="index.html"><b>Back</b></a> 
+  </center>
+</center>
+</body>
+</html>

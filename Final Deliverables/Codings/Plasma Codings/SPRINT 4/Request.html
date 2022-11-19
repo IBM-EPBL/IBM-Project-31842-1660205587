@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="RequestStyle.css" />
+
+    <link  rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Teko' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+
+    <script>
+        function myFunction() {
+          alert("We will notify you soon!");
+        }
+    </script>
+
+    <title>Request</title>
+
+</head>
+<body>
+    <div id="nav">
+        <div id="request">
+            <div id="left">
+                <img id="image" src="img7.jpg">
+            </div>
+            <div id="right">
+                <div id="formTitle">
+                    <h3 id="title" value="Request">Request</h3>
+                    <form method="post" id="form1">
+                        <input id="name" class="inp" type="text" placeholder="Enter a Name..."  autocomplete="off" required><br>
+                        <input id="name" class="inp" type="text" placeholder="Enter a MailId..." autocomplete="off"  required pattern="[A-Za-z0-9._%+-]+@[A-z0-9.-]+\.[a-z]{2,}$" title="Email id is not Valid"><br>
+                        <input id="contact" class="inp" type="text" placeholder="Enter a Mobile Number..."  autocomplete="off" required><br>
+                        <input type="text" list="bloodgroup" name="blood_group" placeholder="Blood Group" required  autocomplete="off">
+                                        <datalist id="bloodgroup">
+                                            <option value="A+"></option>
+                                            <option value="A-"></option>
+                                            <option value="B+"></option>
+                                            <option value="B-"></option>
+                                            <option value="O+"></option>
+                                            <option value="O-"></option>
+                                            <option value="AB+"></option>
+                                            <option value="AB-"></option>
+                                        </datalist>
+                        <input id="unit" class="inp" type="number" placeholder="Enter a Number of Units..."  autocomplete="off" required><br>
+                        <input id="address" class="inp" type="text" placeholder="Enter a Address..."  autocomplete="off" required><br><br>
+                        <button onclick="myFunction()" id="submitBtn" type="submit"><b>Submit<b></button>
+                        &nbsp;&nbsp;&nbsp;<a id="submitBtn" href = "available.html"><b>Back</b></a>
+  
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.16/dist/sweetalert2.all.min.js"></script>
+    <script src="RequestScript.js"></script>
+</body>
+</html>
