@@ -9,6 +9,8 @@ TEAM MEMBERS     : KALAIYARASI B
                    
 PROBLEM STATEMENT :
               -->During the COVID 19 crisis, the requirement of plasma became a high priority and the donor count has become low.
+              
+              
               -->Saving the donor information and helping the needy by displaying the current donors list, would be a helping hand. 
               -->In regard to the problem faced, an application is to be built which would take the donor details, store them and display the availability of donors.
               -->The user interacts with the application.Registers by giving the details as a donor.
@@ -23,6 +25,5 @@ FUTURE SCOPE  :
                  that many plasma donors can be added into the community. 
               -->Using elastic load balancer, it helps to handle multiple requests at the same time which will maintain 
                  the uptime of the website with negligible downtime
-
 
 
